@@ -1,0 +1,213 @@
+/* universal selector */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+/* body styling */
+body
+{
+background-color: #2563eb;
+padding: 30px 15px;
+}
+/* container styling */
+.container
+{
+max-width: 1100px;
+margin: auto;
+}
+/* heading styling */
+.heading
+{
+text-align: center;
+margin-bottom: 25px;
+}
+/* heading text styling */
+.heading h1
+{
+color: white;
+margin-bottom: 8px;
+}
+/* heading paragraph styling */
+.heading p
+{
+color: white;
+}
+/* card styling */
+.card
+{
+background-color: white;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+margin-bottom: 30px;
+}
+/* card heading styling */
+.card h2
+{
+margin-bottom: 25px;
+color: #243b64;
+}
+/* form grid styling */
+.form-grid
+{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+/* form group styling */
+.form-group
+{
+flex: 1 1 calc(50% - 20px);
+min-width: 0;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+/* form group label styling */
+.form-group label
+{
+font-weight: 600;
+color: #374151;
+}
+/* form group input and select styling */
+.form-group input, .form-group select
+{
+width: 100%;
+padding: 12px;
+border: 1px solid #cbd5e0;
+border-radius: 7px;
+font-size: 15px;
+outline: none;
+}
+/* form group input and select focus styling */
+.form-group input:focus, .form-group select:focus
+{
+border-color: #3b82f6;
+box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+}
+/* gender options styling */
+.gender-options
+{
+display: flex;
+gap: 25px;
+align-items: center;
+min-height: 44px;
+}
+/* gender options label styling */
+.gender-options label
+{
+display: flex;
+align-items: center;
+gap: 7px;
+font-weight: normal;
+cursor: pointer;
+}
+/* gender options input styling */
+.gender-options input
+{
+width: auto;
+}
+/* submit button styling */
+.submit-btn
+{
+margin-top: 25px;
+padding: 13px 30px;
+background: #2563eb;
+color: white;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.3s;
+}
+/* submit button hover effect */
+.submit-btn:hover
+{
+background-color: #243b64;
+}
+/* table wrapper styling */
+.table-wrapper
+{
+width: 100%;
+overflow-x: auto;
+}
+/* table styling */
+table
+{
+width: 100%;
+min-width: 950px;
+border-collapse: collapse;
+text-align: left;
+}
+/* table header and data cell styling */
+th, td
+{
+padding: 13px 12px;
+border-bottom: 1px solid #e2e8f0;
+font-size: 14px;
+}
+/* table header styling */
+th
+{
+background: #243b64;
+color: white;
+white-space: nowrap;
+}
+/* table row hover effect */
+tbody tr:hover 
+{
+background: #f1f5f9;
+}
+/* table action buttons styling */
+.empty-message 
+{
+text-align: center;
+color: #718096;
+padding: 20px;
+}
+/*media queries for responsive design*/
+@media (max-width: 768px) 
+{
+body 
+{
+padding: 20px 10px;
+}
+.card
+{
+padding: 20px;
+}
+.form-group 
+{
+flex: 1 1 100%;
+}
+.heading h1 
+{
+font-size: 25px;
+}
+}
+/*media queries for responsive design*/
+@media (max-width: 480px) 
+{
+.card
+{
+padding: 15px;
+}
+.gender-options
+{
+flex-wrap: wrap;
+gap: 15px;
+}
+.submit-btn
+{
+width: 100%;
+}
+}
+
+
+
+
+
+
+
